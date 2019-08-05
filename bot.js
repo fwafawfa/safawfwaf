@@ -34,11 +34,11 @@ client.on('ready', () => {
           message.channel.send(`✔️ **Done Listening Now __${dream}__** `)
       } else
       if (message.content.startsWith(prefix + 'st')) {
-    client.user.setGame(dream, "https://www.twitch.tv/dream");
+    client.user.setGame(dream, "https://www.twitch.tv/wfaf");
          message.channel.send(`✔️ **Done Stream Now  __${dream}__ **`)
       }
  
     });
 
 
-client.login(process.env.LIGHT);
+client.login(process.env.BOT_TOKEN);
